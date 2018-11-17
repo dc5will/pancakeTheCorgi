@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box; 
+}
+
+h1 {
+    color: orange;
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid aquamarine;
+    padding: 30px;
+    margin-top: 120px;
+}
+
+.nav {
+    display: block;
+    position: fixed;
+    background-color: aqua;
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+nav .pancake_icon {
+    height: 100px;
+    margin: 20px 0px 5px 30px;
+    border-radius: 70%;
+    border: 1px solid black;
+    vertical-align: left;
+}
+
+.pancake_mainIMG {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li::after {
+    content: " | ";
+    margin: 20px;
+}
+
+h2 {
+    color: blue;
+    font-family: 'Lobster';
+}
+
+p {
+    color: black;
+}
+
+.footer {
+    font-family: 'Lobster';
+    color: aqua;
+    font-weight: bold;
+    font-size: 20;
+}
